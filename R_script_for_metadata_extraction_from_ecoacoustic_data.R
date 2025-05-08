@@ -1,3 +1,5 @@
+#Set working directory:
+
 #Press Ctrl+Shift+H to interactively choose the wanted directory
 #OR (for Windows) copy (but don't paste) the directory path, which will look like this: 
 #D:/Name/Bioacoustics and 
