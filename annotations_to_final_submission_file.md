@@ -704,7 +704,7 @@ VERY VERY IMPORTANT: YOUR WORK IS NOT DONE YET. The following needs to be done:
 1. In the 'Meta' tab of the downloaded xlsx file, you have to fill up the mandatory
 'Authors' column.
 
-2. You should copy-paste the every unique coordinates from 'Location Latitude' and 
+2. You should copy-paste every unique coordinates from 'Location Latitude' and 
 'Latitude Longitude' column, and paste it in Google Maps, Google Earth or other map services
 to check if the coordinates are the closest to the recording location. If not, it should 
 corrected. Note that the autopopulated coordinates can lie VERY far away from the 
