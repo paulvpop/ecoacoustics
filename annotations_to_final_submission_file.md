@@ -51,7 +51,7 @@ The annotation files provided by RAVEN will be of the following general format (
 
 ## Audio files
 
-Copy all the audio files that were used for annotation to the same folder as above and name it 'auido'
+Copy all the audio files that were used for annotation to the same folder as above and name it 'audio'
 
 ## Data extraction
 
@@ -279,9 +279,7 @@ sum(data$LineCount) - nrow(data)
 [1] 250
 ```
 
-So, there are 266 annotations in my data.
-
-The columns FileName, LineCount, and FileSize (in bytes) are the only columns important to us from here. We will return to these soon.
+So, there are 250 annotations in my data.
 
 Step 4. Combine all the annotation files in the folder using the following steps:
 
