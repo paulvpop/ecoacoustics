@@ -489,7 +489,7 @@ inat_clean <- inat %>%
 
 In the above code chunk, the explanations for the patterns are:
 
-Pattern 1: The explanation for the below code is that grepl function is used to to check if a string matches pattern: YYYY/MM/DD HH:MM AM/PM. The components of the string: \^ = start of string, \\d{4} = check if its exactly 4 digits (year), / = literal slash, \\d{2} = check if its exactly 2 digits (for month, day, minute), \\d{1,2} = check if its either 1 or 2 digits (hour), : = literal colon, [AP]M = check if its either "AM" or "PM" parse_date_time function tries to parse using format "Year/month/day Hour:Minute AM/PM" If that fails, it tries "Year/month/day Hour:Minute" (without AM/PM)
+Pattern 1: The explanation for the above code is that grepl function is used to to check if a string matches pattern: YYYY/MM/DD HH:MM AM/PM. The components of the string: \^ = start of string, \\d{4} = check if its exactly 4 digits (year), / = literal slash, \\d{2} = check if its exactly 2 digits (for month, day, minute), \\d{1,2} = check if its either 1 or 2 digits (hour), : = literal colon, [AP]M = check if its either "AM" or "PM" parse_date_time function tries to parse using format "Year/month/day Hour:Minute AM/PM" If that fails, it tries "Year/month/day Hour:Minute" (without AM/PM)
 
 Pattern 2: The grepl function checks if string matches pattern: YYYY-MM-DD HH:MM:SS Code explanation similar to Pattern 1, but in this case instead of literal slashes, we check matches for hyphens, and there is an addition of second information, and there are no AM/PM classification as it is a 24 hour format. ymd_hms converts the string to datetime object
 
