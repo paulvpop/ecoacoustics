@@ -647,6 +647,16 @@ sum(Meta$`File Size (bytes)`)/1000000000
 
 That's around 109.5 MB
 
+You can also check the total duration of recordings (in minutes):
+
+```
+sum(Meta$`Recording Duration (s)`)/60
+
+[1] 10.34783
+```
+
+That means I have annotated over 10 minutes of audio recordings.
+
 The only mandatory column not filled is the "Authors" column as different recordings may have multiple authors. You can fill it up (with commas seperating the authors if multi-author) once you download the file at the end of this walkthrough.
 
 ## Data input
