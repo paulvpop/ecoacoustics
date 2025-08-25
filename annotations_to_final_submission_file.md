@@ -61,14 +61,14 @@ Open RStudio (first install R and RStudio it if you haven't, using the help [fro
 
 Step 1. Set the working directory.
 
-This will be the folder containing all the above files. For this, Press Ctrl+Shift+H to interactively choose the wanted directory OR (for Windows) copy (but don't paste) the directory path, which will look like this: "D:/Name/Bioacoustics" and run the next two lines of code (don't forget to change the name of the path in quotes with your own)
+This will be the folder containing all the above files. For this, Press Ctrl+Shift+H to interactively choose the wanted directory OR (for Windows) copy (but don't paste) the directory path, which will look like this: "D:/Name/Bioacoustics" and run the next two lines of code
 
 ``` r
 FolderPath <- normalizePath(readClipboard(), "/")
 setwd(FolderPath)
 ```
 
-In Linux, one can just copy-paste the folderpath (can be found if the folder is opened in the terminal) directly :
+In Linux, one can just copy-paste the folderpath (can be found if the folder is opened in the terminal) directly. Don't forget to change the name of the path in quotes with your own:
 
 ``` r
 setwd("~/Wildlife/Bioacoustics/For submission")
