@@ -394,7 +394,7 @@ So, there are 27 classes and 25 species (Vehicular noise and Recorder movement n
 
 Step 6. Extract metadata from the audio files
 
-Change the working directory to folder containing ONLY annotations files.
+Change the working directory to folder containing ONLY audio files.
 
 In Linux:
 
@@ -706,7 +706,7 @@ VERY VERY IMPORTANT: YOUR WORK IS NOT DONE YET. The following needs to be done:
 
 2. You should copy-paste every unique coordinates from 'Location Latitude' and 
 'Latitude Longitude' column, and paste it in Google Maps, Google Earth or other map services
-to check if the coordinates are the closest to the recording location. If not, it should 
+to check if the coordinates are the closest to the recording location. If not, it should be
 corrected. Note that the autopopulated coordinates can lie VERY far away from the 
 recording location if you have travelled a long distance after making that recording on the
 same date.
