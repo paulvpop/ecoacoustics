@@ -719,3 +719,50 @@ output, which is also another option we provide.
 
 3. Try to fill up non-mandatory columns like 'Organism Seen' for enriching the dataset
 with very useful information.
+
+## Create the zip file
+
+We need to combine the folder containing the audio and the xlsx file created, and then zip it.
+
+First list the files to be zipped (change the name from "Paul_Pop" to the one you used in the 'Data combining and download' step)
+
+```         
+audio_files <- list.files("audio", full.names = TRUE)
+excel_file <- "Paul_Pop_batch1_meta_annotation_typeA.xlsx"
+```
+
+Check if the file exists in the working directory (if not, it will give a warning message)
+
+```         
+if(!file.exists(excel_file)) {
+  stop("Excel file not found: ", excel_file)
+}
+```
+
+Create a directory (if it has not been created already). NOTE: Change the folder name to match with the naming of the annotation xlsx in your case.
+
+```         
+if(!dir.exists("Paul_Pop_files_for_submission_batch_1")) {
+  dir.create("Paul_Pop_files_for_submission_batch_1")
+}
+```
+
+Copy the filepath for this folder. NOTE: Change the folder name to match with the naming of the annotation xlsx.
+
+```         
+path <- file.path("Paul_Pop_files_for_submission_batch_1")
+```
+
+Copy files to this directory
+
+```         
+file.copy(audio_files, path)
+file.copy(excel_file, path)
+```
+
+Create zip using relative paths
+
+```         
+zip("zipped_files.zip", files = path)
+```
+You now have a zip file containing the folder to be submitted. Submit the zip file using [this Acoustic Data Upload Form](https://docs.google.com/forms/d/e/1FAIpQLSctSuX61-9fdV46nuTm_tP4dzOoLL4CoIN2lg7LMI9pHVJb_w/viewform).
