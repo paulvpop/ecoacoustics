@@ -10,13 +10,15 @@ Through this document, I will guide you through the steps to extract the data fr
 
 3.  Click the "Filters" button located in the top right corner of the screen.
 
-4.  On the "Export Observations" screen, you can retain the default options, except under the "Choose columns" where you will see a section called "Geo (All \| None)". This is the geographic information. Click on the "All" in the brackets for this section.
+4.  On the gray popup screen, click on "Download". 
 
-5.  Scroll to the bottom of the page and click the "Create Export" button. You will receive a message confirming that the export is being processed. This may take some time depending on the size of your data set.
+5.  On the "Export Observations" screen, you can retain the default options, except under the "Choose columns" where you will see a section called "Geo (All \| None)". This is the geographic information. Click on the "All" in the brackets for this section.
 
-6.  Once the export is complete, you will receive a green message indicating it's ready. Click the "Download" link to get your data file.
+6.  Scroll to the bottom of the page and click the "Create Export" button. You will receive a message confirming that the export is being processed. This may take some time depending on the size of your data set.
 
-7.  Download/Copy the data to a specific folder, and extract the zip file. The zip file name would something like observations-605942.csv.zip, and the unzipped file of interest will be "observations-605942.csv" in this case (within a folder of the same name).
+7.  Once the export is complete, you will receive a green message indicating it's ready. Click the "Download" link to get your data file.
+
+8.  Download/Copy the data to a specific folder, and extract the zip file. The zip file name would something like observations-605942.csv.zip, and the unzipped file of interest will be "observations-605942.csv" in this case (within a folder of the same name).
 
 ## Download your eBird data
 
