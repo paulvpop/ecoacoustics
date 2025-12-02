@@ -20,9 +20,13 @@
 # 
 # 4. On the gray popup screen, click on "Download".  
 #
-# 5. On the "Export Observations" screen, you can retain the default options, 
-#except under the "Choose columns" where you will see a section called "Geo (All \| None)". 
-#This is the geographic information. Click on the "All" in the brackets for this section.
+# 5.  On the "Export Observations" screen, you can retain the default options, 
+#except the following: i) Under the "Create a Query", you will see a field called 
+#"User". Here, add your iNaturalist user name (you can know this by clicking on 
+#'Profile' on the top right drop-down menu, and the name on the top left on the 
+#landing page is the user name/id) ii) Under the "Choose columns" where you will 
+#see a section called "Geo (All \| None)". This is the geographic information. 
+#Click on the "All" in the brackets for this section.
 # 
 # 6.  Scroll to the bottom of the page and click the "Create Export" button. 
 #You will receive a message confirming that the export is being processed. This 
